@@ -6,6 +6,10 @@
     }
   },
   "description": "An esbuild plugin that allows for the importing of GraphQL files",
+  "dependencies": {
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
